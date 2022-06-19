@@ -5,15 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+      }
+
+      .about {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./assets/repeated-square-dark.webp);
+        color: #333;
+      }
+
+      .card {
+        background-image: url(./assets/white_wall_hash.webp);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.5rem 1.5rem;
+        border-radius: 8px;
+        box-shadow: 9px 9px 54px -6px rgba(255, 255, 255, 0.33);
+        gap: 2rem;
+      }
+
+      .title {
+        font-size: 3.5rem;
+      }
+
+      .about h3 {
+        font-size: 1.8rem;
+        font-weight: 900;
+      }
+    </style>
   </head>
   <body>
     <section class="about">
-      <h1>Group Members</h1>
-      <h3>Rishabh Gupta</h3>
-      <h3>Dhairya Hindoriya</h3>
-      <h3>Vansh Gurnani</h3>
-      <h3>Saurabh Jadhav</h3>
-      <h3>Rohit Jadhav</h3>
+      <div class="card">
+        <h1 class="title">Group Members</h1>
+        <h3>Rishabh Gupta</h3>
+        <h3>Dhairya Hindoriya</h3>
+        <h3>Vansh Gurnani</h3>
+        <h3>Saurabh Jadhav</h3>
+        <h3>Rohit Jadhav</h3>
+      </div>
     </section>
   </body>
 </html>
